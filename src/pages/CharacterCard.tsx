@@ -11,7 +11,7 @@ const CharacterCard = () => {
     fetch("https://rickandmortyapi.com/api/character")
       .then((response) => response.json())
       .then((data) => setCharacters(data.results))
-      .catch((error) => console.error("Error fetching characters:", error));
+      .catch((error) => console.error("Error :", error));
   }, []);
 
   const { colorMode, toggleColorMode } = useColorMode();
