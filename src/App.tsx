@@ -3,9 +3,7 @@ import CharacterCard from "./pages/CharacterCard"
 
 const App = () => {
   return (
-
   <CharacterCard />
-
   )
 }
 export default App
